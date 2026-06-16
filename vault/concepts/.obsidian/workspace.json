@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "4f10ec4baa0457ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f3d6543faeaeccf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c8b0e251e9e3c2e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      },
+      {
+        "id": "36bc71bb6238607c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bfe6af45265e722",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      },
+      {
+        "id": "73dbd3734ee581ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1e29ab847771d39",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "231ae681e5f609b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "1394bfefbb7763a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "767a6723c5e1422c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c21041f96e001688",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ca50de8838e4abe3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0326bac117baa9ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbbdeabf36fa862a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153ca521574b2d60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "ca362dd573663b66",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "fe655624b58a58b7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2ad323eea18ba4e6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "64dfa81da063e9ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "e1e29ab847771d39",
+  "lastOpenFiles": [
+    "mutation-types.md",
+    "plant-organ-systems.md",
+    "organ-systems.md",
+    "plant-tissues.md",
+    "animal-tissues.md",
+    "multicellular-organization.md",
+    "developmental-mechanisms-contexts.md",
+    "developmental-regulation.md",
+    "stem-cells-in-development.md",
+    "developmental-mechanisms.md",
+    "animal-body-plans.md",
+    "germ-layers.md",
+    "gastrulation-process.md",
+    "cleavage-process.md",
+    "cell-potency.md",
+    "plant-growth.md",
+    "plant-embryogenesis.md",
+    "cell-differentiation.md",
+    "embryogenesis.md",
+    "cell-communication-plant.md",
+    "positive-feedback-loop.md",
+    "negative-feedback-loop.md",
+    "homeostasis.md",
+    "chemical-electrical-signalling-comparison.md",
+    "action-potential.md",
+    "cell-communication-mechanisms.md"
+  ]
+}

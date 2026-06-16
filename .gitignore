@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# PUBLIC-REPO SAFETY  ·  University of Melbourne Biology Tutor
+# Everything here is kept OUT of the published repo to protect copyright (UoM
+# lecture material) and the private reasoning layer. Only original rewrites
+# (vault/concepts, vault/topics) and the pipeline code are published.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# 1) Copyright sources — UoM lecture material, extraction-only, NEVER committed
+raw/
+*.pdf
+*.pptx
+*.ppt
+*.docx
+
+# 2) Converted intermediates that still contain copyright lecture text
+md/                 # lecture PDFs converted to markdown (= the slides as text)
+md-questions/       # review docs converted to markdown
+
+# 3) CORE ALGORITHM / IP — the 4C verification engine is NOT published.
+#    Design principles are documented in README; the implementation stays private.
+verify/             # 4C verifier + stitcher + Prolog rules (verify.py, stitch.py, wiki.pl)
+*.pl
+
+# 4) Review questions: AI-generated, kept private (publish:false by design).
+#    Excluded from the PUBLIC repo; they still ship to the private HF agent.
+vault/questions/
+
+# 5) Misc
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.obsidian/workspace*

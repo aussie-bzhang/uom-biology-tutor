@@ -1,0 +1,15 @@
+# Install INTO the reused Project 2 env (which already has gradio + pyswip + HF tooling).
+
+# --- Layer 1: convert + GLM extraction + 4C gate ---
+markitdown[all]>=0.1.6      # PDF/PPTX -> markdown (Microsoft); needs Python 3.10+
+zhipuai>=2.1.0
+PyYAML>=6.0
+pyswip>=0.2.11          # optional; used only if swipl is present, pure-Python fallback otherwise
+
+# --- Layer 2: private HF Space (agent) ---
+huggingface_hub>=0.25.0
+# Pin gradio to the EXACT version Project 2 used, and mirror it in the Space README `sdk_version`:
+# gradio==<project2-version>
+
+# --- Layer 2 (later / optional): knowledge tracing for the mastery model ---
+# pykt-toolkit
