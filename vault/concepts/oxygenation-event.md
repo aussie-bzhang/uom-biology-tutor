@@ -21,7 +21,7 @@ status: draft
 The oxygenation event, which occurred around 2.4 billion years ago, was a significant shift in Earth's atmosphere, leading to the formation of the ozone layer and creating conditions for aerobic cellular respiration and the evolution of life on land.
 
 ## Key points
-- The atmosphere was primarily CO and CH4
+- The atmosphere was primarily CO2 and CH4
 - Cyanobacteria converted CO2 to glucose and O2
 - Ultraviolet light split O2 into oxygen radicals
 - Ozone molecules formed a protective layer
@@ -29,3 +29,6 @@ The oxygenation event, which occurred around 2.4 billion years ago, was a signif
 
 ## Linked questions
 -
+
+## Revision notes
+- 2026-06-24: Corrected early-atmosphere composition from "CO" to "CO2" (E01-surfaced correction; consistent with cyanobacteria converting CO2 to glucose and O2).
