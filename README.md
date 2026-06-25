@@ -38,6 +38,62 @@ and complete before anyone studies from it.
 
 ---
 
+## From knowledge base to video: the course series
+
+The verified concept graph is not only for reading — it is a **source of truth that
+generates content**. The same `vault/` published here was used to produce a
+**15-episode video series** that teaches the whole subject, lecture-style, from the
+chemistry of life through to development and physiology.
+
+▶️ **Watch the full series:** [YouTube playlist](https://www.youtube.com/playlist?list=PLTYuk9ln66s0)
+
+| # | Episode | Link |
+|---|---------|------|
+| E01 | Foundations of Life & Water Chemistry | https://youtu.be/K2mLrgmXGuI |
+| E02 | Biomolecules | https://youtu.be/l4qbN6AjWN8 |
+| E03 | Membranes & the Endomembrane System | https://youtu.be/8qi18SNCZ2k |
+| E04 | Eukaryotic Origins & Cell Division | https://youtu.be/xqrDJPE2FOY |
+| E05 | Bioenergetics & Enzymes | https://youtu.be/ma4t8zB-JdU |
+| E06 | Cellular Respiration | https://youtu.be/RpwbinTMyZA |
+| E07 | Photosynthesis & Signalling | https://youtu.be/5xem3Dditqk |
+| E08 | Genes, Mutation & Variation | https://youtu.be/aHiGQ-TbB7o |
+| E09 | Meiosis & Mendelian Inheritance | https://youtu.be/lA75FyEzGzc |
+| E10 | Linkage, Gene Interactions & Regulation | https://youtu.be/2QP45eHU130 |
+| E11 | Multicellularity & Gas Exchange | https://youtu.be/OZgvrW7oPxI |
+| E12 | Transport in Animals & Plants | https://youtu.be/MTdgcfsP5DU |
+| E13 | Cell Communication & Homeostasis | https://youtu.be/euO7C_A48Io |
+| E14a | Development & Differentiation | https://youtu.be/NyaWYK6XfKE |
+| E14b | Tissues & Organs | https://youtu.be/NSGLXyC4jYs |
+
+### How the videos are made
+
+Each episode is generated **from the verified vault**, not hand-scripted and not
+improvised by a language model. The 36 lectures roll up into 15 concept-cluster
+episodes, and **every spoken claim traces back to a 4C-verified concept note** — the
+same auditability guarantee that governs the graph. The per-episode pipeline is:
+
+- **Content derivation** — an episode's assigned concept notes become a narration
+  script in original prose, with every factual sentence tagged to its source note. A
+  per-episode 4C self-check confirms zero unsourced claims before rendering; gaps are
+  flagged, never invented.
+- **Slides** — generated programmatically (pptxgenjs) on a consistent dark theme.
+- **Animation** — concept animations rendered with Manim where they aid understanding.
+- **Voice** — narration synthesised with neural text-to-speech (edge-TTS) at a steady
+  lecture pace.
+- **Assembly** — all tracks are composited into a single H.264/1080p video, closing
+  with a short recap quiz drawn from the linked question sets.
+
+The series is an end-to-end demonstration of the project's thesis: a **4C-verified
+personal knowledge base can act as a living source that emits trustworthy,
+multi-format study material** — here, a full course of video lectures whose factual
+content is auditable back to the graph.
+
+> The videos are an **independent study aid**. They are not affiliated with or endorsed
+> by the University of Melbourne, and the lecture slides remain © University of Melbourne
+> (used only as a local extraction source, per C1).
+
+---
+
 ## The 4C design framework
 
 The core design principle is simple to state and strict to enforce:
